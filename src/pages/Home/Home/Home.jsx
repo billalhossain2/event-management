@@ -3,6 +3,7 @@ import Carousel from '../CarouselSlider/CarouselSlider'
 import CarouselSlider from '../CarouselSlider/CarouselSlider'
 import Services from '../Services/Services'
 import About from '../About/About'
+import Team from '../Team/Team'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <CarouselSlider></CarouselSlider>
       <About></About>
       <Services></Services>
+      <Team></Team>
     </div>
   )
 }

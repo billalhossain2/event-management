@@ -34,9 +34,7 @@ const CarouselSlider = () => {
               <div className='max-h-[500px]'>
                     <img  src={item.image} />
                     <div className='legend space-y-3'>
-                      <p className='text-3xl'>{item.legend}</p>
-                      <p>{item.description}</p>
-                      <button className='btn bg-[#ED4A43] hover:bg-[#ED4A43] border-0 text-white'>View Details</button>
+                      <p className='md:text-3xl text-2xl'>{item.legend}</p>
                     </div>
                 </div>
             ))
