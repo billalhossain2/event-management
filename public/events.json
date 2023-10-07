@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "weddings_service_image.jpg",
+      "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
       "serviceName": "Weddings",
       "description": "Make your wedding day extraordinary with our expert planning and coordination services.",
       "price": "$5,000",
@@ -64,7 +64,7 @@
     },
     {
       "id": 2,
-      "image": "birthday_parties_service_image.jpg",
+      "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
       "serviceName": "Birthday Parties",
       "description": "Celebrate your special day with a memorable birthday party that reflects your style and personality.",
       "price": "$1,000",
@@ -127,7 +127,7 @@
     },
     {
       "id": 3,
-      "image": "anniversaries_service_image.jpg",
+      "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
       "serviceName": "Anniversaries",
       "description": "Celebrate your love and commitment with a beautiful anniversary event designed just for you.",
       "price": "$2,000",
@@ -190,7 +190,7 @@
     },
     {
       "id": 4,
-      "image": "engagement_parties_service_image.jpg",
+      "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
       "serviceName": "Engagement Parties",
       "description": "Celebrate your engagement with a memorable and joyous engagement party for family and friends.",
       "price": "$1,500",
@@ -253,7 +253,7 @@
     },
     {
       "id": 5,
-      "image": "retirement_parties_service_image.jpg",
+      "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
       "serviceName": "Retirement Parties",
       "description": "Celebrate a well-deserved retirement with a memorable party that honors a successful career.",
       "price": "$1,800",
@@ -316,7 +316,7 @@
     },
     {
       "id": 6,
-      "image": "baby_shower_service_image.jpg",
+      "image": "https://i.ibb.co/98rvpvp/baby-shower.jpg",
       "serviceName": "Baby Shower",
       "description": "Celebrate the upcoming arrival of your bundle of joy with a memorable baby shower.",
       "price": "$1,200",

@@ -1,9 +1,13 @@
 import React from 'react'
+import Carousel from '../CarouselSlider/CarouselSlider'
+import CarouselSlider from '../CarouselSlider/CarouselSlider'
+import Services from '../Services/Services'
 
 const Home = () => {
   return (
     <div>
-      Home
+      <CarouselSlider></CarouselSlider>
+      <Services></Services>
     </div>
   )
 }
