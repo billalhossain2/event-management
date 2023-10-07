@@ -24,7 +24,7 @@ const Navbar = () => {
         <div onClick={()=>setShow(!show)} className='flex justify-end'>
           {!show ? <FaBars className='text-3xl'></FaBars> : <ImCross className='text-3xl'></ImCross>}
         </div>
-      <ul className={`z-50 flex w-[250px] gap-10 text-[20px] items-end  flex-col bg-[#2bd88188] px-5 py-3 absolute right-0 duration-500 top-[-500px] ${show ? 'top-[35px]' : 'top-[-500px]'}`}>
+      <ul className={`z-50 flex w-[250px] gap-5 text-[20px] items-end  flex-col bg-[#000000e8] text-white px-5 py-3 absolute right-0 duration-500 top-[-500px] ${show ? 'top-[35px]' : 'top-[-500px]'}`}>
         {navList}
       </ul>
       </div>

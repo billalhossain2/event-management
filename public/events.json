@@ -7,55 +7,55 @@
       "price": "$5,000",
       "servicesOffered": [
         {
-          "image": "wedding_planning.jpg",
+          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
           "serviceName": "Wedding Planning",
           "description": "Comprehensive wedding planning, from concept to execution."
         },
         {
-          "image": "venue_selection.jpg",
+          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
           "serviceName": "Venue Selection",
           "description": "Assistance in finding the perfect wedding venue."
         },
         {
-          "image": "vendor_coordination.jpg",
+          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
           "serviceName": "Vendor Coordination",
           "description": "Connection with trusted vendors and contract management."
         },
         {
-          "image": "theme_and_decor.jpg",
+          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
           "serviceName": "Theme and Decor",
           "description": "Creation of unique wedding themes and decor concepts."
         },
         {
-          "image": "catering_services.jpg",
+          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
           "serviceName": "Catering Services",
           "description": "Delicious catering options tailored to your preferences."
         },
         {
-          "image": "photography_services.jpg",
+          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
           "serviceName": "Photography Services",
           "description": "Capture beautiful moments with professional photography."
         },
         {
-          "image": "entertainment_services.jpg",
+          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
           "serviceName": "Entertainment Services",
           "description": "Live music, DJ, and entertainment options for your wedding."
         },
         {
-          "image": "transportation_services.jpg",
+          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
           "serviceName": "Transportation Services",
           "description": "Arrange transportation for you and your guests on your special day."
         }
       ],
       "clientReviews": [
         {
-          "image": "client_review_sarah.jpg",
+          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
           "clientName": "Sarah Anderson",
           "review": "Our wedding was a fairytale thanks to this team. Everything was perfect, from the venue to the decor. Highly recommended!",
           "ratings": 5
         },
         {
-          "image": "client_review_john.jpg",
+          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
           "clientName": "John Smith",
           "review": "Professional, creative, and attentive to every detail. Our wedding exceeded our expectations.",
           "ratings": 4.8
@@ -112,13 +112,13 @@
       ],
       "clientReviews": [
         {
-          "image": "client_review_emily.jpg",
+          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
           "clientName": "Emily Clark",
           "review": "Our daughter's birthday party was a huge success. The theme and entertainment were fantastic!",
           "ratings": 4.9
         },
         {
-          "image": "client_review_david.jpg",
+          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
           "clientName": "David Wilson",
           "review": "We had a blast at our birthday party. Everything was well-organized and fun!",
           "ratings": 4.7
@@ -175,13 +175,13 @@
       ],
       "clientReviews": [
         {
-          "image": "client_review_linda_michael.jpg",
+          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
           "clientName": "Linda and Michael",
           "review": "Our 25th-anniversary celebration was truly magical. Thank you for making it so special!",
           "ratings": 5
         },
         {
-          "image": "client_review_susan_robert.jpg",
+          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
           "clientName": "Susan and Robert",
           "review": "We couldn't have asked for a more romantic and elegant anniversary party. It was perfect!",
           "ratings": 4.8
@@ -238,13 +238,13 @@
       ],
       "clientReviews": [
         {
-          "image": "client_review_alice_james.jpg",
+          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
           "clientName": "Alice and James",
           "review": "Our engagement party was a blast. Everything was beautifully planned and executed!",
           "ratings": 4.9
         },
         {
-          "image": "client_review_grace_william.jpg",
+          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
           "clientName": "Grace and William",
           "review": "We were so thrilled with our engagement party. It was everything we dreamed of!",
           "ratings": 4.7
@@ -301,13 +301,13 @@
       ],
       "clientReviews": [
         {
-          "image": "client_review_mark.jpg",
+          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
           "clientName": "Mark Johnson",
           "review": "My retirement party was a blast. Thanks to the team for making it so special!",
           "ratings": 4.8
         },
         {
-          "image": "client_review_laura.jpg",
+          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
           "clientName": "Laura Smith",
           "review": "A perfect way to start my retirement. The party was unforgettable!",
           "ratings": 4.7
@@ -364,13 +364,13 @@
       ],
       "clientReviews": [
         {
-          "image": "client_review_emma.jpg",
+          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
           "clientName": "Emma Davis",
           "review": "Our baby shower was adorable and memorable, thanks to this wonderful team!",
           "ratings": 4.9
         },
         {
-          "image": "client_review_michael.jpg",
+          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
           "clientName": "Michael Johnson",
           "review": "Everything was perfect, from the decorations to the games. It was a joyful celebration!",
           "ratings": 4.8

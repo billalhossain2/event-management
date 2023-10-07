@@ -18,9 +18,9 @@ const TeamCard = () => {
       <img className='rounded-lg' src="https://i.ibb.co/xJV4Tmt/about-us.jpg" alt="" />
       <h4 className="text-2xl">Kyle Buckly</h4>
       <div className='flex justify-center gap-3 pb-5'>
-        <p className='border-[1px] border-solid border-[#ed4943] text-[#ed4943] hover:bg-[#ed4943] hover:text-white p-2 rounded-full cursor-pointer'><BiLogoFacebook className='text-2xl rounded-full'></BiLogoFacebook></p>
-        <p className='border-[1px] border-solid border-[#ed4943] text-[#ed4943] hover:bg-[#ed4943] hover:text-white p-2 rounded-full cursor-pointer'><FaLinkedinIn className='text-2xl rounded-full'></FaLinkedinIn></p>
-        <p className='border-[1px] border-solid border-[#ed4943] text-[#ed4943] hover:bg-[#ed4943] hover:text-white p-2 rounded-full cursor-pointer'><FiTwitter className='text-2xl rounded-full'></FiTwitter></p>
+        <p className='border-[1px] border-solid border-[#ed4943] text-[#ed4943] hover:bg-[#ed4943] hover:text-white p-2 rounded-full cursor-pointer duration-500'><BiLogoFacebook className='text-2xl rounded-full'></BiLogoFacebook></p>
+        <p className='border-[1px] border-solid border-[#ed4943] text-[#ed4943] hover:bg-[#ed4943] hover:text-white p-2 rounded-full cursor-pointer duration-500'><FaLinkedinIn className='text-2xl rounded-full'></FaLinkedinIn></p>
+        <p className='border-[1px] border-solid border-[#ed4943] text-[#ed4943] hover:bg-[#ed4943] hover:text-white p-2 rounded-full cursor-pointer duration-500'><FiTwitter className='text-2xl rounded-full'></FiTwitter></p>
       </div>
     </div>
   )

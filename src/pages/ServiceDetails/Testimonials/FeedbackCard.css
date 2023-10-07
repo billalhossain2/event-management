@@ -1,0 +1,7 @@
+/* You can also customize other arrow properties like size, background, etc. */
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px; /* Change the arrow size */
+  background-color: transparent; /* Change the arrow background color */
+  color:#ED4A43;
+}

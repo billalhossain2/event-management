@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import 'aos/dist/aos.css'; // Import the CSS styles for AOS
 import AOS from 'aos';
+import { Link } from 'react-router-dom';
 
 const ServiceCard = ({event}) => {
   const {id, image, serviceName, price, description} = event;
@@ -17,7 +18,9 @@ const ServiceCard = ({event}) => {
       <h3 className="text-3xl font-bold">{serviceName}</h3>
       <h4 className='font-bold text-2xl text-[#EE4A43]'>Price: {price}</h4>
       <p>{description}</p>
-      <button className='btn bg-[#EE4A43] hover:bg-[#EE4A43] border-0 text-white'>View Details</button>
+      <Link to={`/service-details/${id}`}>
+      <button className='px-5 py-3 rounded-lg hover:text-white duration-500 border-[1px] border-solid border-[#EE4A43] hover:bg-[#EE4A43]  text-[#EE4A43]'>View Details</button>
+      </Link>
     </div>
   )
 }
