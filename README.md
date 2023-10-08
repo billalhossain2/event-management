@@ -7,15 +7,15 @@ please click to show live demo:
 
 ## Features
 
-* Service Details Page: Users can view detailed information about event services, helping them make informed decisions.
+* **Service Details Page:** Users can view detailed information about event services, helping them make informed decisions.
 
-#### User Authentication:
-* Email and Password: Users can create accounts and log in using their email and password.
-* Google: Users can log in using their Google accounts.
-* Facebook: Users can log in using their Facebook accounts.
-* User Registration: New users can sign up for an account.
-* Protected Route: Booking and Blog are protected which can be accessed after login
-* Responsive Design: The website is designed to work well on all devices like desktop, tablet and mobile.
+* **User Authentication:**
+* **Email and Password:** Users can create accounts and log in using their email and password.
+* **Google:** Users can log in using their Google accounts.
+* **Facebook:** Users can log in using their Facebook accounts.
+* **User Registration:** New users can sign up for an account.
+* **Protected Route:** Booking and Blog are protected which can be accessed after login
+* **Responsive Design:** The website is designed to work well on all devices like desktop, tablet and mobile.
 
 ## Technologies Used
 * React
@@ -32,21 +32,25 @@ please click to show live demo:
 # Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+## Prerequisites
 * Node.js installed on your machine
 * Firebase project configured with Authentication and Realtime Database
 
-### Installation
+## Installation
 1. Clone the repository to your local machine:
+
 git clone https://github.com/your-username/event-masters-hub.git
 
 2. Navigate to the project folder:
+
 cd event-masters-hub
 
 3. Install dependencies:
+
 npm install
 
 4. Configure Firebase:
+
 * Set up a Firebase project on the Firebase Console.
 
 * Create a web app in your Firebase project.
@@ -62,7 +66,9 @@ REACT_APP_FIREBASE_MESSAGING_SENDER_ID=<YOUR_MESSAGING_SENDER_ID>
 REACT_APP_FIREBASE_APP_ID=<YOUR_APP_ID>
 
 5. Start the development server:
+
 npm start
+
 The application should now be running locally at http://localhost:3000
 
 ## Usage
@@ -74,7 +80,8 @@ Provide instructions on how to deploy your application to a production environme
 ## Contact 
 If you have any questions, suggestions, or feedback regarding Event Masters Hub, please don't hesitate to reach out to us:
 
-Email: billal.webdev@gmail.com
-Facebook: https://www.facebook.com/webdevbillal/photos
+**Email:** billal.webdev@gmail.com
+
+**Facebook:** https://www.facebook.com/webdevbillal/photos
 
 We welcome your input and are excited to hear from you!
