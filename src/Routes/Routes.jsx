@@ -8,6 +8,9 @@ import Register from "../pages/Register/Register";
 import TermsAndConditions from "../pages/TermsAndConditions/TermsAndConditions";
 import UserProfile from "../pages/UserProfile/UserProfile";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
+import EventBookingPage from "../pages/EventBookingPage/EventBookingPage";
+import BlogPage from "../pages/Blog/Blogs";
 
 const routes = createBrowserRouter([
     {
@@ -21,7 +24,7 @@ const routes = createBrowserRouter([
             },
             {
                 path:"/service-details/:id",
-                element:<ServiceDetails></ServiceDetails>
+                element:<PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>
             },
             {
                 path:"/contact",
@@ -42,6 +45,14 @@ const routes = createBrowserRouter([
             {
                 path:"/user-profile",
                 element:<UserProfile></UserProfile>
+            },
+            {
+                path:"/event-booking",
+                element:<PrivateRoute><EventBookingPage></EventBookingPage></PrivateRoute>
+            },
+            {
+                path:"/blog",
+                element:<PrivateRoute><BlogPage></BlogPage></PrivateRoute>
             },
         ]
     }

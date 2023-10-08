@@ -1,7 +1,10 @@
 import React, { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { UserAuthContext } from "../../AuthProvider/AuthProvider";
 import { CirclesWithBar } from "react-loader-spinner";
+
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Login() {
   //accessing context
@@ -29,6 +32,8 @@ function Login() {
       [name]: value,
     });
   };
+  const navigate = useNavigate()
+  const from = useLocation()?.state?.from || "/";
 
   //login with email and password
   const handleSubmit = (e) => {
@@ -42,6 +47,8 @@ function Login() {
         setError("")
         setLoading(false)
         setSuccess("Login success")
+        toast("Login Successfully!")
+        navigate(from)
       })
       .catch((error) => {
         setError(error.message)
@@ -49,6 +56,7 @@ function Login() {
         setLoading(false);
       });
   };
+
 
   //login with third party social app
   const handleLoginWithFacebook = () => {
@@ -61,6 +69,8 @@ function Login() {
         setError("");
         setLoading(false);
         setSuccess("Login success")
+        toast("Login Successfully!")
+        navigate(from)
       })
       .catch((error) => {
         setError(error.message);
@@ -78,6 +88,8 @@ function Login() {
         setError("");
         setLoading(false);
         setSuccess("Login success")
+        toast("Login Successfully!")
+        navigate(from)
       })
       .catch((error) => {
         setError(error.message);
@@ -88,7 +100,7 @@ function Login() {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="w-full max-w-md p-6 bg-white shadow-lg rounded-lg border-[1px] border-solid border-[#ee494356]">
-        <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
+        <h2 className="text-2xl font-semibold mb-4">Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label htmlFor="name" className="block text-gray-700">

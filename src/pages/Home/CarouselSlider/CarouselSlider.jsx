@@ -45,8 +45,8 @@ const CarouselSlider = () => {
         stopOnHover={true}
         >
           {
-            carouselData?.map(item => (
-              <div className='max-h-[550px]'>
+            carouselData?.map((item, index) => (
+              <div key={index} className='max-h-[550px]'>
                     <img  src={item.image} />
                     <div style={{backgroundColor:"#ED4A43"}} className='legend space-y-3'>
                       <p className='md:text-3xl text-2xl'>{item.legend}</p>

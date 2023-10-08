@@ -36,7 +36,7 @@ const Team = () => {
     <div className='my-20'>
       <div data-aos="fade-right" className='text-center space-y-5 mb-5'>
       <h3 className="md:text-5xl text-3xl font-bold">Meet Our Team</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis perspiciatis harum asperiores eaque, rem delectus! Fugiat doloremque neque iure ea quos laboriosam repellendus rerum consequuntur alias, voluptatum voluptate officia expedita.</p>
+      <p>Discover the faces behind our event planning magic. Our team is a dedicated group of professionals with a passion for creating exceptional events. From experienced event coordinators to creative designers, we work collaboratively to turn your vision into reality. With diverse backgrounds and a commitment to excellence, our team is ready to make your event unforgettable. Get to know us, and let's create something extraordinary together.</p>
       </div>
 
       {/* team members  */}

@@ -95,7 +95,7 @@ function Register() {
   return (
     <div className="flex justify-center items-center h-screen mb-16">
       <div className="w-full max-w-md p-6 bg-white shadow-lg rounded-lg border-[1px] border-solid border-[#ee494356]">
-        <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
+        <h2 className="text-2xl font-semibold mb-4">Register</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label htmlFor="name" className="block text-gray-700">
@@ -173,6 +173,7 @@ function Register() {
                 type="checkbox"
                 name="acceptTerms"
                 className="mr-2"
+                required
                 onChange={handleChange}
               />
               Accept
@@ -219,7 +220,6 @@ function Register() {
           </p>
         </form>
       </div>
-      <ToastContainer></ToastContainer>
     </div>
   );
 }
