@@ -12,50 +12,50 @@
           "description": "Comprehensive wedding planning, from concept to execution."
         },
         {
-          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
+          "image": "https://i.ibb.co/7vHsHgn/venue-selection.jpg",
           "serviceName": "Venue Selection",
           "description": "Assistance in finding the perfect wedding venue."
         },
         {
-          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
+          "image": "https://i.ibb.co/DbpD8R1/vendor-management.jpg",
           "serviceName": "Vendor Coordination",
           "description": "Connection with trusted vendors and contract management."
         },
         {
-          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
+          "image": "https://i.ibb.co/tCZ1sVJ/theme-and-decor.jpg",
           "serviceName": "Theme and Decor",
           "description": "Creation of unique wedding themes and decor concepts."
         },
         {
-          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
+          "image": "https://i.ibb.co/j6MVTjC/catering.jpg",
           "serviceName": "Catering Services",
           "description": "Delicious catering options tailored to your preferences."
         },
         {
-          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
+          "image": "https://i.ibb.co/gjZZwyk/photographer.jpg",
           "serviceName": "Photography Services",
           "description": "Capture beautiful moments with professional photography."
         },
         {
-          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
+          "image": "https://i.ibb.co/jHyC0P7/Entertainment-Services.jpg",
           "serviceName": "Entertainment Services",
           "description": "Live music, DJ, and entertainment options for your wedding."
         },
         {
-          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
+          "image": "https://i.ibb.co/FgHDQjZ/Transportation-Services.jpg",
           "serviceName": "Transportation Services",
           "description": "Arrange transportation for you and your guests on your special day."
         }
       ],
       "clientReviews": [
         {
-          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
+          "image": "https://i.ibb.co/5T7GXK5/client-1.jpg",
           "clientName": "Sarah Anderson",
           "review": "Our wedding was a fairytale thanks to this team. Everything was perfect, from the venue to the decor. Highly recommended!",
           "ratings": 5
         },
         {
-          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
+          "image": "https://i.ibb.co/r43mpKL/client-2.jpg",
           "clientName": "John Smith",
           "review": "Professional, creative, and attentive to every detail. Our wedding exceeded our expectations.",
           "ratings": 4.8
@@ -70,55 +70,55 @@
       "price": "$1,000",
       "servicesOffered": [
         {
-          "image": "party_planning.jpg",
+          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
           "serviceName": "Party Planning",
           "description": "Complete party planning and coordination services."
         },
         {
-          "image": "theme_selection.jpg",
+          "image": "https://i.ibb.co/tCZ1sVJ/theme-and-decor.jpg",
           "serviceName": "Theme Selection",
           "description": "Choose from a variety of themes to make your birthday party unique."
         },
         {
-          "image": "entertainment.jpg",
+          "image": "https://i.ibb.co/gjZZwyk/photographer.jpg",
           "serviceName": "Entertainment",
           "description": "Hire entertainers and performers to keep your guests entertained."
         },
         {
-          "image": "catering.jpg",
+          "image": "https://i.ibb.co/j6MVTjC/catering.jpg",
           "serviceName": "Catering",
           "description": "Delicious food options to delight your guests."
         },
         {
-          "image": "cake_design.jpg",
+          "image": "https://i.ibb.co/DbpD8R1/vendor-management.jpg",
           "serviceName": "Cake Design",
           "description": "Custom-designed birthday cakes for a sweet celebration."
         },
         {
-          "image": "decoration.jpg",
+          "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
           "serviceName": "Decoration",
           "description": "Decorate your party venue with style and creativity."
         },
         {
-          "image": "games_and_activities.jpg",
+          "image": "https://i.ibb.co/jHyC0P7/Entertainment-Services.jpg",
           "serviceName": "Games and Activities",
           "description": "Engaging games and activities for guests of all ages."
         },
         {
-          "image": "party_favors.jpg",
+          "image": "https://i.ibb.co/jHyC0P7/Entertainment-Services.jpg",
           "serviceName": "Party Favors",
           "description": "Unique party favors to thank your guests for celebrating with you."
         }
       ],
       "clientReviews": [
         {
-          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
+          "image": "https://i.ibb.co/5T7GXK5/client-1.jpg",
           "clientName": "Emily Clark",
           "review": "Our daughter's birthday party was a huge success. The theme and entertainment were fantastic!",
           "ratings": 4.9
         },
         {
-          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
+          "image": "https://i.ibb.co/r43mpKL/client-2.jpg",
           "clientName": "David Wilson",
           "review": "We had a blast at our birthday party. Everything was well-organized and fun!",
           "ratings": 4.7
@@ -127,61 +127,61 @@
     },
     {
       "id": 3,
-      "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
+      "image": "https://i.ibb.co/JjDP0MZ/anniversary.jpg",
       "serviceName": "Anniversaries",
       "description": "Celebrate your love and commitment with a beautiful anniversary event designed just for you.",
       "price": "$2,000",
       "servicesOffered": [
         {
-          "image": "anniversary_planning.jpg",
+          "image": "https://i.ibb.co/jHyC0P7/Entertainment-Services.jpg",
           "serviceName": "Anniversary Planning",
           "description": "Plan and execute a memorable anniversary celebration."
         },
         {
-          "image": "venue_selection_anniversary.jpg",
+          "image": "https://i.ibb.co/7vHsHgn/venue-selection.jpg",
           "serviceName": "Venue Selection",
           "description": "Choose the perfect venue to mark this special milestone."
         },
         {
-          "image": "decor_and_setup.jpg",
+          "image": "https://i.ibb.co/tCZ1sVJ/theme-and-decor.jpg",
           "serviceName": "Decor and Setup",
           "description": "Beautiful decorations and setup to create a romantic ambiance."
         },
         {
-          "image": "catering_anniversaries.jpg",
+          "image": "https://i.ibb.co/j6MVTjC/catering.jpg",
           "serviceName": "Catering Services",
           "description": "Exquisite catering to elevate your anniversary celebration."
         },
         {
-          "image": "photography_anniversaries.jpg",
+          "image": "https://i.ibb.co/gjZZwyk/photographer.jpg",
           "serviceName": "Photography Services",
           "description": "Capture precious moments with professional photography."
         },
         {
-          "image": "live_music_anniversaries.jpg",
+          "image": "https://i.ibb.co/jHyC0P7/Entertainment-Services.jpg",
           "serviceName": "Live Music",
           "description": "Live music performances to set the mood for your celebration."
         },
         {
-          "image": "cake_design_anniversaries.jpg",
+          "image": "https://i.ibb.co/6YvGQVy/cake-design.jpg",
           "serviceName": "Cake Design",
           "description": "Custom anniversary cakes to sweeten your day."
         },
         {
-          "image": "fireworks_anniversaries.jpg",
+          "image": "https://i.ibb.co/tCZ1sVJ/theme-and-decor.jpg",
           "serviceName": "Fireworks Display",
           "description": "End your anniversary celebration with a dazzling fireworks display."
         }
       ],
       "clientReviews": [
         {
-          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
+          "image": "https://i.ibb.co/5T7GXK5/client-1.jpg",
           "clientName": "Linda and Michael",
           "review": "Our 25th-anniversary celebration was truly magical. Thank you for making it so special!",
           "ratings": 5
         },
         {
-          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
+          "image": "https://i.ibb.co/r43mpKL/client-2.jpg",
           "clientName": "Susan and Robert",
           "review": "We couldn't have asked for a more romantic and elegant anniversary party. It was perfect!",
           "ratings": 4.8
@@ -190,61 +190,61 @@
     },
     {
       "id": 4,
-      "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
+      "image": "https://i.ibb.co/XtZpYnq/engagement-party.jpg",
       "serviceName": "Engagement Parties",
       "description": "Celebrate your engagement with a memorable and joyous engagement party for family and friends.",
       "price": "$1,500",
       "servicesOffered": [
         {
-          "image": "engagement_party_planning.jpg",
+          "image": "https://i.ibb.co/tCZ1sVJ/theme-and-decor.jpg",
           "serviceName": "Engagement Party Planning",
           "description": "Plan and coordinate a delightful engagement party."
         },
         {
-          "image": "venue_selection_engagement.jpg",
+          "image": "https://i.ibb.co/7vHsHgn/venue-selection.jpg",
           "serviceName": "Venue Selection",
           "description": "Choose a venue that captures the essence of your love story."
         },
         {
-          "image": "decor_and_setup_engagement.jpg",
+          "image": "https://i.ibb.co/tCZ1sVJ/theme-and-decor.jpg",
           "serviceName": "Decor and Setup",
           "description": "Create a romantic atmosphere with beautiful decorations and setup."
         },
         {
-          "image": "catering_engagement.jpg",
+          "image": "https://i.ibb.co/j6MVTjC/catering.jpg",
           "serviceName": "Catering Services",
           "description": "Delight your guests with a variety of catering options."
         },
         {
-          "image": "photography_engagement.jpg",
+          "image": "https://i.ibb.co/gjZZwyk/photographer.jpg",
           "serviceName": "Photography Services",
           "description": "Capture the joy of your engagement celebration with professional photography."
         },
         {
-          "image": "live_music_engagement.jpg",
+          "image": "https://i.ibb.co/tCZ1sVJ/theme-and-decor.jpg",
           "serviceName": "Live Music",
           "description": "Live music performances to add to the celebratory atmosphere."
         },
         {
-          "image": "cake_design_engagement.jpg",
+          "image": "https://i.ibb.co/6YvGQVy/cake-design.jpg",
           "serviceName": "Cake Design",
           "description": "Custom engagement cakes to sweeten your party."
         },
         {
-          "image": "fireworks_engagement.jpg",
+          "image": "https://i.ibb.co/j6MVTjC/catering.jpg",
           "serviceName": "Fireworks Display",
           "description": "End your engagement party with a mesmerizing fireworks display."
         }
       ],
       "clientReviews": [
         {
-          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
+          "image": "https://i.ibb.co/5T7GXK5/client-1.jpg",
           "clientName": "Alice and James",
           "review": "Our engagement party was a blast. Everything was beautifully planned and executed!",
           "ratings": 4.9
         },
         {
-          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
+          "image": "https://i.ibb.co/r43mpKL/client-2.jpg",
           "clientName": "Grace and William",
           "review": "We were so thrilled with our engagement party. It was everything we dreamed of!",
           "ratings": 4.7
@@ -253,61 +253,61 @@
     },
     {
       "id": 5,
-      "image": "https://i.ibb.co/PMcR0N0/wedding-management.jpg",
+      "image": "https://i.ibb.co/0f5jThZ/retirement-party.jpg",
       "serviceName": "Retirement Parties",
       "description": "Celebrate a well-deserved retirement with a memorable party that honors a successful career.",
       "price": "$1,800",
       "servicesOffered": [
         {
-          "image": "retirement_party_planning.jpg",
+          "image": "https://i.ibb.co/j6MVTjC/catering.jpg",
           "serviceName": "Retirement Party Planning",
           "description": "Plan and coordinate a retirement party that celebrates a lifetime of achievements."
         },
         {
-          "image": "venue_selection_retirement.jpg",
+          "image": "https://i.ibb.co/7vHsHgn/venue-selection.jpg",
           "serviceName": "Venue Selection",
           "description": "Choose a venue that reflects the retiree's personality and interests."
         },
         {
-          "image": "entertainment_and_activities_retirement.jpg",
+          "image": "https://i.ibb.co/ky1Zq94/live-music.jpg",
           "serviceName": "Entertainment and Activities",
           "description": "Arrange fun and engaging activities for guests to enjoy."
         },
         {
-          "image": "catering_retirement.jpg",
+          "image": "https://i.ibb.co/j6MVTjC/catering.jpg",
           "serviceName": "Catering Services",
           "description": "Catering options to suit the preferences of the retiree and guests."
         },
         {
-          "image": "photography_retirement.jpg",
+          "image": "https://i.ibb.co/gjZZwyk/photographer.jpg",
           "serviceName": "Photography Services",
           "description": "Capture memorable moments from the retirement celebration."
         },
         {
-          "image": "live_music_retirement.jpg",
+          "image": "https://i.ibb.co/ky1Zq94/live-music.jpg",
           "serviceName": "Live Music",
           "description": "Live music performances to add a festive touch to the party."
         },
         {
-          "image": "cake_design_retirement.jpg",
+          "image": "https://i.ibb.co/j6MVTjC/catering.jpg",
           "serviceName": "Cake Design",
           "description": "Custom retirement cakes to mark the occasion."
         },
         {
-          "image": "fireworks_retirement.jpg",
+          "image": "https://i.ibb.co/h2TW5St/firework.jpg",
           "serviceName": "Fireworks Display",
           "description": "Conclude the retirement celebration with a spectacular fireworks display."
         }
       ],
       "clientReviews": [
         {
-          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
+          "image": "https://i.ibb.co/5T7GXK5/client-1.jpg",
           "clientName": "Mark Johnson",
           "review": "My retirement party was a blast. Thanks to the team for making it so special!",
           "ratings": 4.8
         },
         {
-          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
+          "image": "https://i.ibb.co/r43mpKL/client-2.jpg",
           "clientName": "Laura Smith",
           "review": "A perfect way to start my retirement. The party was unforgettable!",
           "ratings": 4.7
@@ -322,55 +322,55 @@
       "price": "$1,200",
       "servicesOffered": [
         {
-          "image": "baby_shower_planning.jpg",
+          "image": "https://i.ibb.co/WB8BLZb/baby-shower-party.jpg",
           "serviceName": "Baby Shower Planning",
           "description": "Complete planning and coordination for a delightful baby shower."
         },
         {
-          "image": "venue_selection_baby_shower.jpg",
+          "image": "https://i.ibb.co/7vHsHgn/venue-selection.jpg",
           "serviceName": "Venue Selection",
           "description": "Choose a cozy and charming venue for your baby shower celebration."
         },
         {
-          "image": "decorations_baby_shower.jpg",
+          "image": "https://i.ibb.co/tCZ1sVJ/theme-and-decor.jpg",
           "serviceName": "Decorations",
           "description": "Adorable and creative decorations to set the perfect atmosphere."
         },
         {
-          "image": "catering_baby_shower.jpg",
+          "image": "https://i.ibb.co/j6MVTjC/catering.jpg",
           "serviceName": "Catering Services",
           "description": "Delightful catering options to satisfy your guests' taste buds."
         },
         {
-          "image": "games_and_activities_baby_shower.jpg",
+          "image": "https://i.ibb.co/jHyC0P7/Entertainment-Services.jpg",
           "serviceName": "Games and Activities",
           "description": "Engaging games and activities to entertain your guests."
         },
         {
-          "image": "photography_baby_shower.jpg",
+          "image": "https://i.ibb.co/gjZZwyk/photographer.jpg",
           "serviceName": "Photography Services",
           "description": "Capture heartwarming moments with professional photography."
         },
         {
-          "image": "party_favors_baby_shower.jpg",
+          "image": "https://i.ibb.co/ZHk1sJt/party-fa.jpg",
           "serviceName": "Party Favors",
           "description": "Charming party favors to thank your guests for celebrating with you."
         },
         {
-          "image": "cake_design_baby_shower.jpg",
+          "image": "https://i.ibb.co/6YvGQVy/cake-design.jpg",
           "serviceName": "Cake Design",
           "description": "Custom-designed baby shower cakes to sweeten your celebration."
         }
       ],
       "clientReviews": [
         {
-          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
+          "image": "https://i.ibb.co/5T7GXK5/client-1.jpg",
           "clientName": "Emma Davis",
           "review": "Our baby shower was adorable and memorable, thanks to this wonderful team!",
           "ratings": 4.9
         },
         {
-          "image": "https://i.ibb.co/FxgzZ04/birthday-party.jpg",
+          "image": "https://i.ibb.co/r43mpKL/client-2.jpg",
           "clientName": "Michael Johnson",
           "review": "Everything was perfect, from the decorations to the games. It was a joyful celebration!",
           "ratings": 4.8

@@ -1,22 +1,37 @@
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import img from "../../../assets/event-management.jpg"
+import "./CarouselSlider.css";
 const CarouselSlider = () => {
   const carouselData = [
     {
-      image:"https://i.ibb.co/PMcR0N0/wedding-management.jpg",
+      image:"https://i.ibb.co/1nkJjSv/wedding-management.jpg",
       description:"lorem ljaf ljasdf lkjlkfdsa ljfdlksa ljfdsak lfkdjsa",
       legend:"Wedding Management"
     },
     {
-      image:"https://i.ibb.co/FxgzZ04/birthday-party.jpg",
+      image:"https://i.ibb.co/DVwFp69/birthday.jpg",
       description:"lorem ljaf ljasdf lkjlkfdsa ljfdlksa ljfdsak lfkdjsa",
       legend:"Birthday Party Management"
     },
     {
-      image:"https://i.ibb.co/PMcR0N0/wedding-management.jpg",
+      image:"https://i.ibb.co/8cj8v7j/baby-shower-party.jpg",
       description:"lorem ljaf ljasdf lkjlkfdsa ljfdlksa ljfdsak lfkdjsa",
       legend:"Baby Shower Party Management"
+    },
+    {
+      image:"https://i.ibb.co/7pn2h1m/anniversary-party.jpg",
+      description:"lorem ljaf ljasdf lkjlkfdsa ljfdlksa ljfdsak lfkdjsa",
+      legend:"Anniversary Party Management"
+    },
+    {
+      image:"https://i.ibb.co/gmBQnpH/engagement-party.jpg",
+      description:"lorem ljaf ljasdf lkjlkfdsa ljfdlksa ljfdsak lfkdjsa",
+      legend:"Engagement Party Planner"
+    },
+    {
+      image:"https://i.ibb.co/mykwddM/retirement-party.jpg",
+      description:"lorem ljaf ljasdf lkjlkfdsa ljfdlksa ljfdsak lfkdjsa",
+      legend:"Retirement Party Planner"
     },
   ]
   return (
@@ -31,9 +46,9 @@ const CarouselSlider = () => {
         >
           {
             carouselData?.map(item => (
-              <div className='max-h-[500px]'>
+              <div className='max-h-[550px]'>
                     <img  src={item.image} />
-                    <div className='legend space-y-3'>
+                    <div style={{backgroundColor:"#ED4A43"}} className='legend space-y-3'>
                       <p className='md:text-3xl text-2xl'>{item.legend}</p>
                     </div>
                 </div>

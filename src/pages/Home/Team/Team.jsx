@@ -13,7 +13,7 @@ const Team = () => {
   return (
     <div className='my-20'>
       <div data-aos="fade-right" className='text-center space-y-5 mb-5'>
-      <h3 className="text-5xl font-bold">Meet Our Team</h3>
+      <h3 className="md:text-5xl text-3xl font-bold">Meet Our Team</h3>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis perspiciatis harum asperiores eaque, rem delectus! Fugiat doloremque neque iure ea quos laboriosam repellendus rerum consequuntur alias, voluptatum voluptate officia expedita.</p>
       </div>
 

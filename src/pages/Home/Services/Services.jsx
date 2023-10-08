@@ -19,7 +19,7 @@ const Services = () => {
   return (
     <div className='mb-20'>
       <div data-aos="fade-right" className='text-center space-y-3 mb-10'>
-      <h3 className="text-5xl font-bold">Services</h3>
+      <h3 className="md:text-5xl text-3xl font-bold">Our Services</h3>
       <p>A social media management service is a comprehensive solution designed to help individuals, businesses, or organizations effectively manage and enhance their presence on various social media platforms. This service aims to streamline the process of creating, scheduling, analyzing, and optimizing content for social media, with the ultimate goal of increasing engagement, brand awareness, and audience growth. Here are some key components and features of a social media management service:</p>
       </div>
 

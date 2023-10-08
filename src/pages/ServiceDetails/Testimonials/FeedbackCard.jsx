@@ -21,7 +21,7 @@ const FeedbackCard = ({clientReviews}) => {
       {
         clientReviews?.map(review => (
           <div className='text-center space-y-3'>
-          <img className='w-full rounded-lg' src={review.image} alt="" />
+          <img className='w-full rounded-lg pl-5' src={review.image} alt="" />
           <h2 className='font-bold md:text-3xl text-2xl'>{review.clientName}</h2>
           <p>{review.review}</p>
           <p className='flex justify-center md:gap-3'><ReactStarsRating className="flex" value={review.ratings} isEdit={false}></ReactStarsRating>{review.ratings}</p>
