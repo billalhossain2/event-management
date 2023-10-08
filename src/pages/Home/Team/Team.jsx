@@ -10,6 +10,28 @@ const Team = () => {
         easing: 'ease-in-out', // Easing type
       });
     }, []);
+    const teamMembers = [
+      {
+        id:Date.now()+Math.random().toString(36),
+        name:"Jhon Doe",
+        image:"https://i.ibb.co/vHCyVj4/member-1.jpg"
+      },
+      {
+        id:Date.now()+Math.random().toString(36),
+        name:"Kyle Simpson",
+        image:"https://i.ibb.co/Jdwdgp3/member-3.jpg"
+      },
+      {
+        id:Date.now()+Math.random().toString(36),
+        name:"Sara Nelson",
+        image:"https://i.ibb.co/LkMhkpX/member-2.jpg"
+      },
+      {
+        id:Date.now()+Math.random().toString(36),
+        name:"Jack Max",
+        image:"https://i.ibb.co/q0q9Q5k/member-4.jpg"
+      },
+    ]
   return (
     <div className='my-20'>
       <div data-aos="fade-right" className='text-center space-y-5 mb-5'>
@@ -19,10 +41,9 @@ const Team = () => {
 
       {/* team members  */}
       <div className='grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-5'>
-      <TeamCard></TeamCard>
-      <TeamCard></TeamCard>
-      <TeamCard></TeamCard>
-      <TeamCard></TeamCard>
+      {
+        teamMembers.map(member => <TeamCard key={member.id} member={member}></TeamCard>)
+      }
       </div>
     </div>
   )
