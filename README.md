@@ -3,7 +3,7 @@
 Event Masters Hub is a website designed to help users discover and manage various event services. It's built with React, Firebase, Tailwind CSS and several other libraries to provide a seamless experience for users.
 
 ## Live Link:
-please click to show live demo: 
+please click to show live demo: https://eventmastershub.web.app
 
 ## Features
 
@@ -39,7 +39,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 ## Installation
 1. Clone the repository to your local machine:
 
-git clone https://github.com/your-username/event-masters-hub.git
+git clone https://github.com/programming-hero-web-course-4/b8a9-event-management-billal-webdev.git
 
 2. Navigate to the project folder:
 

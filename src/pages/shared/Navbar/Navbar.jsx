@@ -4,19 +4,18 @@ import { FaBars } from "react-icons/fa6";
 import { ImCross } from "react-icons/im";
 import { UserAuthContext } from "../../../AuthProvider/AuthProvider";
 import Swal from "sweetalert2";
+
+import { ToastContainer, toast, useToast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+
 const Navbar = () => {
   const [show, setShow] = useState(false);
   const { user, signOutUser } = useContext(UserAuthContext);
   const handleLogout = ()=>{
     signOutUser()
     .then(()=>{
-      Swal.fire({
-        position: 'top-end',
-        icon: 'success',
-        title: 'Successfylly logged out',
-        showConfirmButton: false,
-        timer: 1500
-      })
+      toast("Logout Successful!", {position:"top-left", autoClose:2000})
     })
     .catch(error => console.log(error.message))
   }

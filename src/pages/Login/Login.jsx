@@ -47,7 +47,7 @@ function Login() {
         setError("")
         setLoading(false)
         setSuccess("Login success")
-        toast("Login Successfully!")
+        toast("Login Successfully!", {position:"top-left", autoClose:2000})
         navigate(from)
       })
       .catch((error) => {
@@ -59,24 +59,6 @@ function Login() {
 
 
   //login with third party social app
-  const handleLoginWithFacebook = () => {
-    setError("");
-    setSuccess("")
-    setLoading(true);
-    loginWithFacebook()
-      .then((user) => {
-        console.log("Successfully logged in with facebook");
-        setError("");
-        setLoading(false);
-        setSuccess("Login success")
-        toast("Login Successfully!")
-        navigate(from)
-      })
-      .catch((error) => {
-        setError(error.message);
-        setLoading(false);
-      });
-  };
 
   const handleLoginWithGoogle = () => {
     setError("");
@@ -88,7 +70,7 @@ function Login() {
         setError("");
         setLoading(false);
         setSuccess("Login success")
-        toast("Login Successfully!")
+        toast("Login Successfully!", {position:"top-left", autoClose:2000})
         navigate(from)
       })
       .catch((error) => {
@@ -179,16 +161,10 @@ function Login() {
           <p className="text-center my-3">or Login with</p>
         </form>
         {/* socila login options  */}
-        <div className="flex md:flex-row flex-col justify-center items-center gap-5">
-          <button
-            onClick={handleLoginWithFacebook}
-            className="bg-blue-600 text-white px-4 py-2 rounded-full"
-          >
-            Facebook
-          </button>
+        <div className="flex justify-center">
           <button
             onClick={handleLoginWithGoogle}
-            className="bg-red-600 text-white px-4 py-2 rounded-full"
+            className="px-6 py-2 rounded-md border-[1px] border-solid border-[#ED4A43] text-[#ED4A43] hover:bg-[#ed4943] hover:text-white duration-300"
           >
             Google
           </button>

@@ -1,11 +1,11 @@
 import React, { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { ToastContainer, toast, useToast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { UserAuthContext } from "../../AuthProvider/AuthProvider";
 import { RotatingLines } from "react-loader-spinner";
 function Register() {
-  const { user, registerWithEmailAndPassword, updateUserProfile } =
+  const { user, registerWithEmailAndPassword, updateUserProfile, signOutUser } =
     useContext(UserAuthContext);
   const [formData, setFormData] = useState({
     name: "",
@@ -15,6 +15,8 @@ function Register() {
     confirmPassword: "",
     acceptTerms: false,
   });
+
+  const navigate = useNavigate()
 
   const [error, setError] = useState();
   const [success, setSuccess] = useState("");
@@ -79,7 +81,13 @@ function Register() {
         updateUserProfile({ displayName: name, photoURL: photoUrl })
           .then(() => {
             setLoading(false);
-            toast("Successfully created a new user");
+            toast("Successfully created a new user", {position:"top-left", autoClose:2000});
+            //signout after update profile
+            signOutUser()
+            .then(()=>{
+              navigate("/login")
+            })
+            .catch(error => setError(error.message))
           })
           .catch((error) => {
             setError(error.message)
