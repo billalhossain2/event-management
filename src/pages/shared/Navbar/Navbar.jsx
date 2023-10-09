@@ -8,17 +8,16 @@ import Swal from "sweetalert2";
 import { ToastContainer, toast, useToast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-
 const Navbar = () => {
   const [show, setShow] = useState(false);
   const { user, signOutUser } = useContext(UserAuthContext);
-  const handleLogout = ()=>{
+  const handleLogout = () => {
     signOutUser()
-    .then(()=>{
-      toast("Logout Successful!", {position:"top-left", autoClose:2000})
-    })
-    .catch(error => console.log(error.message))
-  }
+      .then(() => {
+        toast("Logout Successful!", { position: "top-left", autoClose: 2000 });
+      })
+      .catch((error) => console.log(error.message));
+  };
   const navList = (
     <>
       <li>
@@ -37,10 +36,21 @@ const Navbar = () => {
         <>
           <li>
             <NavLink to="/user-profile">
-              <img title={user?.displayName} className="w-10 h-10 rounded-full" src={user?.photoURL} alt="" />
+              <div
+                className="tooltip tooltip-open md:tooltip-bottom tooltip-left"
+                data-tip={user?.displayName}
+              >
+                <img
+                className="w-10 h-10 rounded-full"
+                src={user?.photoURL}
+                alt=""
+              />
+              </div>
             </NavLink>
           </li>
-          <li><button onClick={handleLogout}>Logout</button></li>
+          <li>
+            <button onClick={handleLogout}>Logout</button>
+          </li>
         </>
       ) : (
         <li>
